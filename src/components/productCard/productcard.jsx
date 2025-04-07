@@ -16,7 +16,7 @@ const Productcard = ({product}) => {
 
 
   return (
-    <Card className="w-full">
+    <Card className="w-full flex flex-col justify-between">
     <CardHeader>
       <CardTitle className="min-h-[64px]">{product.title}</CardTitle>
       <CardDescription  className="mt-7 flex items-center min-h-[530px]"><img src={product.image}></img></CardDescription>
